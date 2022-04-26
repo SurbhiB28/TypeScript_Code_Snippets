@@ -8,8 +8,6 @@ var foo = new FooBase();
 foo.x; 
 //foo.y; 
 //foo.z; 
-
-// EFFECT ON CHILD CLASSES
 class FooChild extends FooBase {
     constructor() {
       super();

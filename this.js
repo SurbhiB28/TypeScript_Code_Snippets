@@ -1,8 +1,0 @@
-function foo() {
-    console.log(this);
-}
-foo(); // logs out the global e.g. `window` in browsers
-var bar = {
-    foo: foo
-};
-bar.foo(); // Logs out `bar` as `foo` was called on `bar`

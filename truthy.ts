@@ -1,3 +1,3 @@
-if (123) { // Will be treated like `true`
+if (123) { 
     console.log('truthy');
   }

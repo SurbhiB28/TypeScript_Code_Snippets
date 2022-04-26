@@ -1,4 +1,4 @@
-//Stirng interpolation
+//String interpolation
 var lyrics = 'Never give you up'
 var cnsl = `Lyrics - ${lyrics}`
 console.log(cnsl)
