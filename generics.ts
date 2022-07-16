@@ -7,7 +7,7 @@ let docOne =  addUID({name: 'surbhi', age: 23})
 //let docTwo = addUID('hello')
 console.log(docOne.age)
 
-//with interfaces
+// with interfaces
 interface Resource<T> {
     uid: number
     resourceName: string
